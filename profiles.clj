@@ -5,6 +5,4 @@
         :plugins [[cider/cider-nrepl "0.8.1"]
                   [lein-cljfmt "0.1.7"]
                   [jonase/eastwood "0.2.1"]
-                  [lein-kibit "0.0.8"]]
-        :repl-options { :init-ns user }
-        :source-paths [#=(eval (str (System/getProperty "user.home") "/.lein/src"))]}}
+                  [lein-kibit "0.0.8"]]}}

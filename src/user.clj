@@ -22,9 +22,9 @@
     load-project
     distill
     lein])
-  
-(def classpaths
-  (->> (java.lang.ClassLoader/getSystemClassLoader)
-       (cast java.net.URLClassLoader)
-       (.getURLs)
-       (seq)))
+
+(comment (def classpaths
+           (->> (java.lang.ClassLoader/getSystemClassLoader)
+                (cast java.net.URLClassLoader)
+                (.getURLs)
+                (seq))))
