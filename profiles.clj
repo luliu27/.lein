@@ -4,6 +4,7 @@
                        [alembic "0.3.2"]
                        [criterium "0.4.3"]]
         :plugins [[cider/cider-nrepl "0.9.0"]
+                  [refactor-nrepl "1.1.0"]
                   [lein-cljfmt "0.1.7"]
                   [jonase/eastwood "0.2.1"]
                   [lein-kibit "0.0.8"]
